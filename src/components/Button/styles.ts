@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components/native';
 import { RectButton } from 'react-native-gesture-handler';
-import theme from '@theme/index';
+import theme from '@src/theme';
 
 export type TypeProps = 'primary' | 'secondary';
 
@@ -17,7 +17,7 @@ export const Container = styled<any>(RectButton)<ContainerProps>`
   align-items: center;
 
   background-color: ${({ type }) =>
-    type === 'primary' ? theme.COLORS.PRIMARY_900 : theme.COLORS.PRIMARY_800};
+    type === 'primary' ? theme.COLORS.SUCCESS_900 : theme.COLORS.PRIMARY_900};
 `;
 
 export const Title = styled.Text`
