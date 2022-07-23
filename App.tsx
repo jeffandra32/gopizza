@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import AppLoading from 'expo-app-loading';
 import { ThemeProvider } from 'styled-components/native'
-import theme from '@src/theme';
+import theme from '@theme/index';
 import { StatusBar } from 'expo-status-bar'
 import { SignIn } from './src/screens';
 import { useFonts, DMSans_400Regular } from '@expo-google-fonts/dm-sans'

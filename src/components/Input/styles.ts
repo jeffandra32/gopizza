@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components/native';
 import { TextInput } from 'react-native';
 
-import theme from '@src/theme';
+import theme from '@theme/index';
 
 export type TypeProps = 'primary' | 'secondary';
 

@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components/native';
 import { RectButton } from 'react-native-gesture-handler';
-import theme from '@src/theme';
+import theme from '@theme/index';
 
 export type TypeProps = 'primary' | 'secondary';
 
